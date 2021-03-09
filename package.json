@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "test": "mocha specs/*.js",
+    "parallel-tests": "mocha --parallel specs/parallel-run/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOSENKOtina/Module_12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KOSENKOtina/Module_12/issues"
+  },
+  "homepage": "https://github.com/KOSENKOtina/Module_12#readme",
+  "dependencies": {
+    "chai": "^4.3.3",
+    "got": "^11.8.2",
+    "mocha": "^8.3.1",
+    "prettier": "^2.2.1"
+  }
+}
